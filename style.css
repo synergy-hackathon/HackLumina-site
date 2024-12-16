@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    font-family: "Space Mono",monospace;
+    background: rgb(9,9,20);
+    background: linear-gradient(90deg, rgba(9,9,20,1) 0%, rgba(1,192,232,1) 94%, rgba(0,212,255,1) 100%);
+    filter: brightness(100%);
+}
+.navbar {
+    background-color: #222;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 8vh;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur( 5vh );
+    -webkit-backdrop-filter: blur( 5vh );
+}
+
+    .navbar .logo {
+        font-size: 1.5em;
+        margin-right: auto;
+        padding-left: 20px;
+    }
+
+.navbar nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 4vh;
+    margin: 0;
+}
+
+.navbar nav ul li {
+    display: inline-block;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 1.2vh 2.7vh;
+    gap:2vh;
+    margin-right: 2vh;
+
+}
+
